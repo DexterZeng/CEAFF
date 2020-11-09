@@ -226,7 +226,7 @@ if __name__ == '__main__':
     OUTPUT_GRAPH = False
     GAMMA = 0.9  # reward discount in TD error
     LR_A = 0.001  # learning rate for actor
-    LR_C = 0.002  # learning rate for critic
+    LR_C = 0.01 # learning rate for critic
     truncNum = 10
 
     N_F = truncNum
